@@ -15,7 +15,8 @@ In addition, skip connections between layers of the encoder and layers of the de
 ![alt text][image2]
 
 The filter sizes for the encoder and decoder are as follows:
-| Block        | Filter Size |
+
+| Block      	| Filter Size |
 |:-----------------:|:-----:|
 | Encoder1     | 128 |
 | Encoder2          | 256 |
@@ -27,6 +28,7 @@ The filter sizes for the encoder and decoder are as follows:
 
 ### Hyper-parameter Tuning
 After tuning hyper-parameters to get a good performance, the final hyper-parameters are in the table below:
+
 | Hyper-parameter  | Value |
 |:-----------------:|:-----:|
 | Learning Rate     | 0.001 |
