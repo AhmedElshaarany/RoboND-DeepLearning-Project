@@ -41,6 +41,7 @@ For learning rate tuning, if the learning rate was too high, then the optimizer 
 When tuning the number of epochs, I started of with 20-30, but that caused the accuracy to be below the required 0.4 target. So increasing the number of epochs to 45 did the the job.
 ## Final Hyper-parameters
 After tuning the reminaing hyper-parameters by trial and error to get a good performance, the final hyper-parameters are in the table below:
+
 | Hyper-parameter  | Value |
 |:-----------------:|:-----:|
 | Learning Rate     | 0.001 |
